@@ -76,7 +76,9 @@
   h1{
     font-size: 25px;
   }
-
+  #company-information h2 {
+    margin: 20px 0 10px 0 !important;
+  }
   #header .navbar-nav.navbar-right li {
     padding: 0;
   }
@@ -103,7 +105,7 @@
   }
 
   #home-slider .slider-house {
-    width: 350px;
+    width: 140px;
   }
 
   #home-slider .slider-circle1 {
@@ -143,7 +145,7 @@
   }
 
   #home-slider .slider-cycle {
-    right: 350px;
+    right: 290px;
     bottom: 0;
     width: 140px;
   }
@@ -237,19 +239,19 @@
 
   #header .navbar-inverse .navbar-toggle,
   #header .navbar-inverse .navbar-toggle:focus {
-    border-color: #dbb075;
-    margin:  0;
+    border-color: #422869;
+    margin:  7px 0 0 0;
     outline: none;
   }
   /*#header .navbar-brand {*/
     /*width: 52%;*/
   /*}*/
   .navbar-header .navbar-toggle .icon-bar {
-    background-color: #DBB075;
+    background-color: #422869;
   }
 
   #header .navbar-inverse .navbar-toggle:hover {
-    background: #dbb075;
+    background: #422869;
   }
 
   #header .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -296,11 +298,11 @@
   }
 
   #home-slider {
-    margin: 50px 20px;
+    margin: 50px 20px 0;
   }
 
   #home-slider .main-slider {
-    height: 500px;
+    height: 420px;
   }
 
   #home-slider .slide-text {
@@ -720,12 +722,23 @@
     font-size: 10px;
     padding: 12px 11px;
   }
+  #header .navbar-brand {
+    width: 70%;
+  }
+}
+@media (min-width: 350px) and (max-width: 479px) {
+  #header .navbar-brand {
+    width: 50%;
+  }
 }
 @media (min-width: 480px) and (max-width: 767px) {
   #header .navbar-inverse .navbar-toggle,
   #header .navbar-inverse .navbar-toggle:focus {
     margin-top: 8px;
 
+  }
+  #header .navbar-brand {
+    width: 46%;
   }
 }
 @media (min-width: 550px) and (max-width: 767px) {

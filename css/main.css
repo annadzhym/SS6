@@ -234,9 +234,10 @@
 }
 
 #header .navbar {
-  background: #fff;
+  /*background: #fff;*/
   border: 0;
   margin-bottom: 0;
+    background-color: rosybrown;
 }
 
 #header .navbar-toggle{
