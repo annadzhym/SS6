@@ -75,7 +75,7 @@ jQuery(function($) {'use strict';
 			}
 		}).done(function(data){
 			form_status.html('<p class="text-success">Спасибо за Ваше сообщение. С Вами свяжутся как можно скорее.</p>').delay(3000).fadeOut();
-            ('.form-control').val('');
+            $('.form-control').val('');
 		});
 	});
 
